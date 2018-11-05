@@ -3,7 +3,7 @@ require './player'
 
 class Game
   def initialize
-    @players = [Player.new("Player 1"), Player.new("Player 2")]
+    @players = [Player.new("Player 1"), Player.new("Player 2"), Player.new("Player 3")]
     @quizr = Quizzer.new
   end
 
